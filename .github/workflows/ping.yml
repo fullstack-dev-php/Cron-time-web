@@ -2,7 +2,7 @@ name: Ping Render Website
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Ping mỗi 5 phút
+    - cron: "*/10 * * * *"  # Ping mỗi 5 phút
   workflow_dispatch:       # Cho phép chạy thủ công
 
 jobs:
